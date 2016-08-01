@@ -134,11 +134,11 @@ $substr = substr($text, 0, 28);
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1] ,"parse_mode" =>"HTML"));	
 }else{
   
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
-Get Out Of Here Idiot🖕
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
+Get Out Of Here Idiot??
 --------------------------------
-شما در لیست سیاه قرار دارید 🚫
-لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
+ﾔ翩 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ ﾏﾇﾑ榘 ??
+瞿ﾝﾇ �ﾇ� 蔆褊ﾏ??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -159,7 +159,7 @@ Get Out Of Here Idiot🖕
     else{
         apiRequest("sendphoto", array('chat_id' => $rpto, "photo" => $substtr));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🗣پیام شما ارسال شد. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??�ﾇ� ﾔ翩 ﾇﾑﾓﾇ� ﾔﾏ. " ,"parse_mode" =>"HTML"));
     
 }  else if ($chat_id == $admin && $booleans[0] == "true") {
     
@@ -187,9 +187,9 @@ Get Out Of Here Idiot🖕
 			
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? �ﾇ� ﾔ翩 ﾈ�  ".$memcout." 耒ﾇﾘﾈ ﾇﾒﾓﾇ� ﾔﾏ.
 .","parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -210,11 +210,11 @@ $substr = substr($text, 0, 28);
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1],"parse_mode" =>"HTML"));	
 }else{
   
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
-Get Out Of Here Idiot🖕
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
+Get Out Of Here Idiot??
 --------------------------------
-شما در لیست سیاه قرار دارید 🚫
-لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
+ﾔ翩 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ ﾏﾇﾑ榘 ??
+瞿ﾝﾇ �ﾇ� 蔆褊ﾏ??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -229,7 +229,7 @@ Get Out Of Here Idiot🖕
     else{
         apiRequest("sendvideo", array('chat_id' => $rpto, "video" => $video));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"🗣پیام شما ارسال شد. ","parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??�ﾇ� ﾔ翩 ﾇﾑﾓﾇ� ﾔﾏ. ","parse_mode" =>"HTML"));
     
 }
 else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -247,9 +247,9 @@ else if ($chat_id == $admin && $booleans[0] == "true") {
     }
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? �ﾇ� ﾔ翩 ﾈ�  ".$memcout." 耒ﾇﾘﾈ ﾇﾒﾓﾇ� ﾔﾏ.
 .","parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -270,11 +270,11 @@ $substr = substr($text, 0, 28);
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1] ,"parse_mode" =>"HTML"));	
 }else{
   
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
-Get Out Of Here Idiot🖕
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
+Get Out Of Here Idiot??
 --------------------------------
-شما در لیست سیاه قرار دارید 🚫
-لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
+ﾔ翩 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ ﾏﾇﾑ榘 ??
+瞿ﾝﾇ �ﾇ� 蔆褊ﾏ??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -282,7 +282,7 @@ Get Out Of Here Idiot🖕
    $sticker = $message['sticker']['file_id'];
    
     apiRequest("sendsticker", array('chat_id' => $rpto, "sticker" => $sticker));
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"🗣پیام شما ارسال شد. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??�ﾇ� ﾔ翩 ﾇﾑﾓﾇ� ﾔﾏ. " ,"parse_mode" =>"HTML"));
     
 }
 
@@ -299,9 +299,9 @@ Get Out Of Here Idiot🖕
 			
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? �ﾇ� ﾔ翩 ﾈ�  ".$memcout." 耒ﾇﾘﾈ ﾇﾒﾓﾇ� ﾔﾏ.
 .","parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -325,11 +325,11 @@ $substr = substr($text, 0, 28);
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1],"parse_mode" =>"HTML"));	
 }else{
   
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
-Get Out Of Here Idiot🖕
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
+Get Out Of Here Idiot??
 --------------------------------
-شما در لیست سیاه قرار دارید 🚫
-لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
+ﾔ翩 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ ﾏﾇﾑ榘 ??
+瞿ﾝﾇ �ﾇ� 蔆褊ﾏ??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -344,7 +344,7 @@ Get Out Of Here Idiot🖕
     else{
         apiRequest("sendDocument", array('chat_id' => $rpto, "document" => $video));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🗣پیام شما ارسال شد. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??�ﾇ� ﾔ翩 ﾇﾑﾓﾇ� ﾔﾏ. " ,"parse_mode" =>"HTML"));
     
 }
  else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -359,9 +359,9 @@ Get Out Of Here Idiot🖕
 			
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? �ﾇ� ﾔ翩 ﾈ�  ".$memcout." 耒ﾇﾘﾈ ﾇﾒﾓﾇ� ﾔﾏ.
 .","parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -382,11 +382,11 @@ $substr = substr($text, 0, 28);
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1] ,"parse_mode" =>"HTML"));	
 }else{
   
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
-Get Out Of Here Idiot🖕
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
+Get Out Of Here Idiot??
 --------------------------------
-شما در لیست سیاه قرار دارید 🚫
-لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
+ﾔ翩 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ ﾏﾇﾑ榘 ??
+瞿ﾝﾇ �ﾇ� 蔆褊ﾏ??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -401,7 +401,7 @@ Get Out Of Here Idiot🖕
     else{
         apiRequest("sendVoice", array('chat_id' => $rpto, "voice" => $video));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"🗣پیام شما ارسال شد. ","parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??�ﾇ� ﾔ翩 ﾇﾑﾓﾇ� ﾔﾏ. ","parse_mode" =>"HTML"));
     
 }
  else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -413,9 +413,9 @@ Get Out Of Here Idiot🖕
         apiRequest("sendVoice", array('chat_id' => $membersidd[$y], "voice" => $video));
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? �ﾇ� ﾔ翩 ﾈ�  ".$memcout." 耒ﾇﾘﾈ ﾇﾒﾓﾇ� ﾔﾏ.
 .","parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -436,11 +436,11 @@ $substr = substr($text, 0, 28);
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1] ,"parse_mode" =>"HTML"));	
 }else{
   
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
-Get Out Of Here Idiot🖕
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
+Get Out Of Here Idiot??
 --------------------------------
-شما در لیست سیاه قرار دارید 🚫
-لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
+ﾔ翩 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ ﾏﾇﾑ榘 ??
+瞿ﾝﾇ �ﾇ� 蔆褊ﾏ??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -455,7 +455,7 @@ Get Out Of Here Idiot🖕
     else{
         apiRequest("sendaudio", array('chat_id' => $rpto, "audio" => $video));
     }
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🗣پیام شما ارسال شد. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??�ﾇ� ﾔ翩 ﾇﾑﾓﾇ� ﾔﾏ. " ,"parse_mode" =>"HTML"));
     
 }
  else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -468,9 +468,9 @@ Get Out Of Here Idiot🖕
 
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? �ﾇ� ﾔ翩 ﾈ�  ".$memcout." 耒ﾇﾘﾈ ﾇﾒﾓﾇ� ﾔﾏ.
 .","parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -491,11 +491,11 @@ $substr = substr($text, 0, 28);
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1] ,"parse_mode" =>"HTML"));	
 }else{
   
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
-Get Out Of Here Idiot🖕
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
+Get Out Of Here Idiot??
 --------------------------------
-شما در لیست سیاه قرار دارید 🚫
-لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
+ﾔ翩 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ ﾏﾇﾑ榘 ??
+瞿ﾝﾇ �ﾇ� 蔆褊ﾏ??" ,"parse_mode" =>"HTML"));	
 
 }
     }
@@ -509,7 +509,7 @@ Get Out Of Here Idiot🖕
     
     apiRequest("sendcontact", array('chat_id' => $rpto, "phone_number" => $phone,"Last_name" =>$last,"first_name"=> $first));
     
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"🗣پیام شما ارسال شد. ","parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>"??�ﾇ� ﾔ翩 ﾇﾑﾓﾇ� ﾔﾏ. ","parse_mode" =>"HTML"));
     
 }
 else if ($chat_id == $admin && $booleans[0] == "true") {
@@ -525,9 +525,9 @@ else if ($chat_id == $admin && $booleans[0] == "true") {
 
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? �ﾇ� ﾔ翩 ﾈ�  ".$memcout." 耒ﾇﾘﾈ ﾇﾒﾓﾇ� ﾔﾏ.
 .","parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -561,11 +561,11 @@ $pmembersid= explode("\n",$txxt);
 
 }
 if($chat_id==$admin){
-  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => ' سلام قربان حوش آمدید😉
-برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
-برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
+  apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => ' ﾓ睇� ﾞﾑﾈﾇ� ﾍ贇 ﾂ耘榘??
+ﾈﾑﾇ� �ﾓﾎ ﾑ跫 �ﾇ� 肆ﾑﾏ 葮ﾑ ﾑ增睇� 倅榘 � 飜� ﾎ賺 ﾑﾇ ﾈ蓙橆榘 ??
+ﾈﾑﾇ� ﾂﾔ萇澵 ﾏ倥� � ?? Help? ﾑﾇ ﾈﾒ蓖ﾏ ????
 .',"parse_mode"=>"MARKDOWN", 'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -579,11 +579,11 @@ if($chat_id==$admin){
 
 -!-@-#-$"."
 ".$pmembersiddd[1]);
-apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیام خوش آمد گویی به 👇
+apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"??�ﾇ� ﾎ贇 ﾂ耘 先澵 ﾈ� ??
 
 ".$starttext.""."
 
-👆تغییر یافت
+??ﾊﾛ澵ﾑ 桒ﾝﾊ
 ."));
     
     
@@ -598,11 +598,11 @@ apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیا�
 
 -!-@-#-$"."
 ".$starttext);
-apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"📝پیام پیش فرض شما به 👇
+apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" =>"??�ﾇ� �ﾔ ﾝﾑﾖ ﾔ翩 ﾈ� ??
 
 ".$starttext.""."
 
-👆تغییر یافت
+??ﾊﾛ澵ﾑ 桒ﾝﾊ
 ."));
     
     
@@ -620,15 +620,15 @@ $substr = substr($text, 0, 28);
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" =>$pmembersiddd[1] ,"parse_mode" =>"HTML"));	
 	
 }else{
-  if($substr !="thisisnarimanfrombeatbotteam"){
-apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>🚫
-Get Out Of Here Idiot🖕
+  if($substr !="thisisshervin"){
+apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "<b>You Are Banned</b>??
+Get Out Of Here Idiot??
 --------------------------------
-شما در لیست سیاه قرار دارید 🚫
-لطفا پیام ندهید🖕" ,"parse_mode" =>"HTML"));	
+ﾔ翩 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ ﾏﾇﾑ榘 ??
+瞿ﾝﾇ �ﾇ� 蔆褊ﾏ??" ,"parse_mode" =>"HTML"));	
 }
 else{
-  $textfa =str_replace("thisisnarimanfrombeatbotteam","🖕",$text);;
+  $textfa =str_replace("thisishervin","??",$text);;
 apiRequest("sendMessage", array('chat_id' => $admin, "text" =>  $textfa,"parse_mode" =>"HTML"));	
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1] ,"parse_mode" =>"HTML"));	
 
@@ -636,100 +636,100 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 }
     	
     
-    }else if ($text == "Settings ⚙" && $chat_id==$admin) {
+    }else if ($text == "Settings ?" && $chat_id==$admin) {
     		
     		
     		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => '
-یکی از گزینه ها را انتخاب کنید
-—---------------------------------------------
-🔶🔸 Clean Members
-🔶🔸پاک کردن لیست مخاطبین
+嶸� ﾇﾒ 脊淸� 衂 ﾑﾇ ﾇ萍ﾎﾇﾈ 倅榘
+�---------------------------------------------
+???? Clean Members
+????�� 佯ﾏ� 硼ﾓﾊ 耒ﾇﾘﾈ淸
 
-🔷🔹Clean Block List
-🔷🔹پاک کردن لیست سیاه
+????Clean Block List
+????�� 佯ﾏ� 硼ﾓﾊ ﾓ桒�
 
-در صورت انصراف Back را بزنید
+ﾏﾑ ﾕ贄ﾊ ﾇ蒄ﾑﾇﾝ Back ﾑﾇ ﾈﾒ蓖ﾏ
 .', 'reply_markup' => array(
-        'keyboard' => array(array('❌ Clean Members ','❌ Clean Block List '),array('🔙 Back')),
+        'keyboard' => array(array('? Clean Members ','? Clean Block List '),array('?? Back')),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
     		
     		
     		
-    }else if ($text == "⚓️ Help" && $chat_id==$admin) {
+    }else if ($text == "?? Help" && $chat_id==$admin) {
       
-    		apiRequest("sendMessage", array('chat_id' => $admin, "text" => "`برای پاسخ پیام مورد نظر را ریپلای کنید`
-🔷 لیست کامنت های موجود :
+    		apiRequest("sendMessage", array('chat_id' => $admin, "text" => "`ﾈﾑﾇ� �ﾓﾎ �ﾇ� 肆ﾑﾏ 葮ﾑ ﾑﾇ ﾑ增睇� 倅榘`
+?? 硼ﾓﾊ 佗聿ﾊ 衂� 肆ﾌ賺 :
 
-🔹`1.` */ban*
- قرار دادن مخاطب در لیست سیاه(با ریپلای) 
-—------------------------------
-🔹`2. `*/unban *
- پاک کردن مخاطب از لیست سیاه(با ریپلای)
-—------------------------------
-🔹`3. `*/setstart *
-اگر شخصی وارد ربات شما شود و */start* بزند این پیام  برای او ارسال میشود           */setstart* بزنید و در ادامه ی آن متن مورد نظر خود را بنویسید.
-مثال :
-*/setstart* سلام چطوری؟ اگه پیامی داری واسه من همینجا بفرست😃
-—------------------------------
-🔹`4. `*/setdone *
-اگر شخصی در ربات برای شما پیامی بفرستد این پیام برای او ارسال میشود.
-مثال :
-*/setdone* پیامت رسید صبر کن تا جواب بدم
+??`1.` */ban*
+ ﾞﾑﾇﾑ ﾏﾇﾏ� 耒ﾇﾘﾈ ﾏﾑ 硼ﾓﾊ ﾓ桒�(ﾈﾇ ﾑ增睇�) 
+�------------------------------
+??`2. `*/unban *
+ �� 佯ﾏ� 耒ﾇﾘﾈ ﾇﾒ 硼ﾓﾊ ﾓ桒�(ﾈﾇ ﾑ增睇�)
+�------------------------------
+??`3. `*/setstart *
+ﾇ績 ﾔﾎﾕ� 貮ﾑﾏ ﾑﾈﾇﾊ ﾔ翩 ﾔ賺 � */start* ﾈﾒ蔆 ﾇ淸 �ﾇ�  ﾈﾑﾇ� ﾇ� ﾇﾑﾓﾇ� 肬ﾔ賺           */setstart* ﾈﾒ蓖ﾏ � ﾏﾑ ﾇﾏﾇ肄 � ﾂ� 飜� 肆ﾑﾏ 葮ﾑ ﾎ賺 ﾑﾇ ﾈ蓙橆榘.
+耆ﾇ� :
+*/setstart* ﾓ睇� 菜贄暠 ﾇ仙 �ﾇ肬 ﾏﾇﾑ� 貮ﾓ� 聿 裙淸ﾌﾇ ﾈﾝﾑﾓﾊ??
+�------------------------------
+??`4. `*/setdone *
+ﾇ績 ﾔﾎﾕ� ﾏﾑ ﾑﾈﾇﾊ ﾈﾑﾇ� ﾔ翩 �ﾇ肬 ﾈﾝﾑﾓﾊﾏ ﾇ淸 �ﾇ� ﾈﾑﾇ� ﾇ� ﾇﾑﾓﾇ� 肬ﾔ賺.
+耆ﾇ� :
+*/setdone* �ﾇ飜 ﾑﾓ榘 ﾕﾈﾑ 倅 ﾊﾇ ﾌ貮ﾈ ﾈﾏ�
 
-➖➖➖➖➖➖➖➖➖➖➖
-🔶 لیست دکمه  های موجود :
+???????????
+?? 硼ﾓﾊ ﾏ倥�  衂� 肆ﾌ賺 :
 
-🔸`1.`*Send To All*
-ارسال پیام متنی به همه ی کاربران
-—------------------------------
-🔸`2.`*Members*
-تعداد کاربران
-—------------------------------
-🔸`3.`*Blocked Users*
-تعداد کاربران در لیست سیاه
-—-------------------------------
-🔸`4.`*Settings*
-تنظیمان ربات
+??`1.`*Send To All*
+ﾇﾑﾓﾇ� �ﾇ� 飜蓖 ﾈ� 裙� � 佗ﾑﾈﾑﾇ�
+�------------------------------
+??`2.`*Members*
+ﾊﾚﾏﾇﾏ 佗ﾑﾈﾑﾇ�
+�------------------------------
+??`3.`*Blocked Users*
+ﾊﾚﾏﾇﾏ 佗ﾑﾈﾑﾇ� ﾏﾑ 硼ﾓﾊ ﾓ桒�
+�-------------------------------
+??`4.`*Settings*
+ﾊ葮淏ﾇ� ﾑﾈﾇﾊ
 
 .","parse_mode" =>"MARKDOWN",'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
     		
-    }else if ($text == "❌ Clean Members" && $chat_id==$admin) {
+    }else if ($text == "? Clean Members" && $chat_id==$admin) {
     		
     		
     		$txxt = file_get_contents('pmembers.txt');
         $pmembersid= explode("\n",$txxt);
     		file_put_contents('pmembers.txt',"");
-    		apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => 'لیست مخاطبین پاک شد ✔️
+    		apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => '硼ﾓﾊ 耒ﾇﾘﾈ淸 �� ﾔﾏ ??
 .', 'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
     }
-    else if ($text == "❌ Clean Block List" && $chat_id==$admin) {
+    else if ($text == "? Clean Block List" && $chat_id==$admin) {
     		
     		
     		$txxt = file_get_contents('banlist.txt');
         $pmembersid= explode("\n",$txxt);
     		file_put_contents('banlist.txt',"");
-    		apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => 'لیست سیاه پاک شد ✔ ', 'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+    		apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode"=>"HTML", "text" => '硼ﾓﾊ ﾓ桒� �� ﾔﾏ ? ', 'reply_markup' => array(
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
     }
-    else if ($text == "🔙 Back" && $chat_id==$admin) {
-    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'سلام قربان حوش آمدید😉
-برای پاسخ روی پیام مورد نظر ریپلای کنید و متن خود را بنویسید 😎
-برای آشنایی دکمه ی ⚓️ Help️ را بزنید 👌😃
+    else if ($text == "?? Back" && $chat_id==$admin) {
+    		apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => 'ﾓ睇� ﾞﾑﾈﾇ� ﾍ贇 ﾂ耘榘??
+ﾈﾑﾇ� �ﾓﾎ ﾑ跫 �ﾇ� 肆ﾑﾏ 葮ﾑ ﾑ增睇� 倅榘 � 飜� ﾎ賺 ﾑﾇ ﾈ蓙橆榘 ??
+ﾈﾑﾇ� ﾂﾔ萇澵 ﾏ倥� � ?? Help? ﾑﾇ ﾈﾒ蓖ﾏ ????
 .', 'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -737,8 +737,8 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
         
         
     }
-    else if ($text =="🗣 Send To All"  && $chat_id == $admin && $booleans[0]=="false") {
-          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام خود را ارسال کنید ." ,"parse_mode" =>"HTML"));
+    else if ($text =="?? Send To All"  && $chat_id == $admin && $booleans[0]=="false") {
+          apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? �ﾇ� ﾎ賺 ﾑﾇ ﾇﾑﾓﾇ� 倅榘 ." ,"parse_mode" =>"HTML"));
       $boolean = file_get_contents('booleans.txt');
 		  $booleans= explode("\n",$boolean);
 	  	$addd = file_get_contents('banlist.txt');
@@ -754,31 +754,31 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 			apiRequest("sendMessage", array('chat_id' => $membersidd[$y], "text" => $texttoall,"parse_mode" =>"HTML"));
 		}
 		$memcout = count($membersidd)-1;
-	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "📦 پیام شما به  ".$memcout." مخاطب ازسال شد.
+	 	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "?? �ﾇ� ﾔ翩 ﾈ�  ".$memcout." 耒ﾇﾘﾈ ﾇﾒﾓﾇ� ﾔﾏ.
 .","parse_mode" =>"HTML",'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
          $addd = "false";
     	file_put_contents('booleans.txt',$addd); 
-    }else if($text == "👥 Members" && $chat_id == $admin ){
+    }else if($text == "?? Members" && $chat_id == $admin ){
 		$txtt = file_get_contents('pmembers.txt');
 		$membersidd= explode("\n",$txtt);
 		$mmemcount = count($membersidd) -1;
-		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode" =>"HTML", "text" => "✅ تعداد کل مخاطبان : ".$mmemcount,'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode" =>"HTML", "text" => "? ﾊﾚﾏﾇﾏ 倔 耒ﾇﾘﾈﾇ� : ".$mmemcount,'reply_markup' => array(
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
 		
 		
-	}else if($text == "❌ Blocked Users" && $chat_id == $admin ){
+	}else if($text == "? Blocked Users" && $chat_id == $admin ){
 		$txtt = file_get_contents('banlist.txt');
 		$membersidd= explode("\n",$txtt);
 		$mmemcount = count($membersidd) -1;
-		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode" =>"HTML", "text" => "🚫 تعداد کل افرادی که در لیست سیاه قرار دارند : ".$mmemcount,'reply_markup' => array(
-        'keyboard' => array(array('🗣 Send To All'),array('⚓️ Help','👥 Members','❌ Blocked Users'),array("Settings ⚙")),
+		 apiRequestJson("sendMessage", array('chat_id' => $chat_id,"parse_mode" =>"HTML", "text" => "?? ﾊﾚﾏﾇﾏ 倔 ﾇﾝﾑﾇﾏ� 伜 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ ﾏﾇﾑ蔆 : ".$mmemcount,'reply_markup' => array(
+        'keyboard' => array(array('?? Send To All'),array('?? Help','?? Members','? Blocked Users'),array("Settings ?")),
         'one_time_keyboard' => true,
         'selective' => true,
         'resize_keyboard' => true)));
@@ -789,7 +789,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
     	if($text != "/ban" && $text != "/unban")
     	{
 	apiRequest("sendMessage", array('chat_id' => $rpto, "text" => $text ,"parse_mode" =>"HTML"));
-	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🗣پیام شما ارسال شد. " ,"parse_mode" =>"HTML"));
+	apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "??�ﾇ� ﾔ翩 ﾇﾑﾓﾇ� ﾔﾏ. " ,"parse_mode" =>"HTML"));
     	}
     	else
     	{
@@ -803,13 +803,13 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 ";
 
     	file_put_contents('banlist.txt',$addd);
-    	apiRequest("sendMessage", array('chat_id' => $rpto, "text" => "<b>You Are Banned🚫,</b>
+    	apiRequest("sendMessage", array('chat_id' => $rpto, "text" => "<b>You Are Banned??,</b>
 -----------------
-شما در لیست سیاه قرار گرفتید🚫." ,"parse_mode" =>"HTML"));
+ﾔ翩 ﾏﾑ 硼ﾓﾊ ﾓ桒� ﾞﾑﾇﾑ 績ﾝﾊ榘??." ,"parse_mode" =>"HTML"));
 }
 		apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "Banned
-➖➖➖➖➖➖➖➖➖➖➖
-به لیست سیاه افزوده شد." ,"parse_mode" =>"HTML"));
+???????????
+ﾈ� 硼ﾓﾊ ﾓ桒� ﾇﾝﾒ賺� ﾔﾏ." ,"parse_mode" =>"HTML"));
     		}
     	if($text == "/unban"){
     	$txttt = file_get_contents('banlist.txt');
@@ -830,10 +830,10 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => $pmembersiddd[1
 }
 		apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "UnBanned
 ------------------
-از لیست سیاه پاک شد." ,"parse_mode" =>"HTML"));
-		apiRequest("sendMessage", array('chat_id' => $rpto, "text" => "<b>You Have Been UnBanned⚙,</b>
+ﾇﾒ 硼ﾓﾊ ﾓ桒� �� ﾔﾏ." ,"parse_mode" =>"HTML"));
+		apiRequest("sendMessage", array('chat_id' => $rpto, "text" => "<b>You Have Been UnBanned?,</b>
 -----------------
-شما از لیست سیاه پاک شدید ⚙." ,"parse_mode" =>"HTML"));
+ﾔ翩 ﾇﾒ 硼ﾓﾊ ﾓ桒� �� ﾔﾏ榘 ?." ,"parse_mode" =>"HTML"));
     		}
     	}
 	}
